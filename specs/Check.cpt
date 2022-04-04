@@ -1,0 +1,26 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+# Uygulamanın açıldığı kontrol edilir.
+* "3" saniye kadar bekle
+
+# Giriş yapma sayfasının açıldığı doğrulanır.
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etEposta" elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "3" saniye kadar bekle
+
+# Kategoriler sayfasının açıldığı doğrulanır.
+* "3" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/nav_categories" li elementi bul ve tıkla
+* "3" saniye kadar bekle
+
+# Ürün detay sayfası açıldığı kontrol edilir.
+* "3" saniye kadar bekle
+* Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/action_bar_root']" li elementi bul ve tıkla
+* "3" saniye kadar bekle
+
+# Geri butonuna 2 kere tıklanır.
+* "3" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/ivBack" li elementi bul ve tıkla
+* Id "com.ozdilek.ozdilekteyim:id/ivBack" li elementi bul ve tıkla
+* "3" saniye kadar bekle

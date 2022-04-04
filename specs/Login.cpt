@@ -1,0 +1,22 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+
+# Özdilekteyim uygulaması açılır.
+* "3" saniye kadar bekle
+# Alışverişe başla butonuna tıklanır.
+* "3" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Alışveriş sayfasının açıldığı doğrulanır.
+* "3" saniye kadar bekle
+* Xpath "//*[@text='Yeni Gelenler']" li elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Kullanıcı adı alanına text bilgisi girilir.
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etEposta" kayıtlı kullanıcı bilgilerini "arda.soykarafakili@testinium.com" gir
+* "3" saniye kadar bekle
+# Password alanına şifre yazılır.
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" kayıtlı kullanıcı bilgilerini "robyarda107*" gir
+* "3" saniye kadar bekle

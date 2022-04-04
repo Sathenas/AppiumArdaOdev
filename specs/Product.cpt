@@ -1,0 +1,18 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+# Ürünlerden rastgele bir ürün seçilir.
+* "3" saniye kadar bekle
+* Random "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" olarak ürün seçimi yap
+* "3" saniye kadar bekle
+
+# Rastgele bir ürün seçilir.
+* "3" saniye kadar bekle
+* Random "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" olarak ürün seçimi yap
+* "3" saniye kadar bekle
+
+# Seçilen ürün sepete eklenir.
+* "3" saniye kadar bekle
+* Random "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerSizeList']" olarak beden seçimi yap
+* Id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elementi bul ve tıkla
+* "3" saniye kadar bekle

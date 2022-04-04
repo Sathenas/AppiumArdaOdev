@@ -1,0 +1,101 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+{"logLevel":"debug","message":"gauge-java took 1800milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1800"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57085"}
+{"logLevel":"info","message":"Listening on port:57085"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForSecond' and 'BasePage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.swipeUp' and 'BasePage.swipeUp'"}
+{"logLevel":"debug","message":"Found Sayfayı asağı doğru kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.randomProduct' and 'BasePage.randomProduct'"}
+{"logLevel":"debug","message":"Found Random {} olarak ürün seçimi yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByid' and 'BasePage.clickByid'"}
+{"logLevel":"debug","message":"Found Id {} li elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findByelementEndclick' and 'BasePage.findByelementEndclick'"}
+{"logLevel":"debug","message":"Found {} elementin sayfada gorunur oldugunu kontrol et ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'"}
+{"logLevel":"debug","message":"Found Xpath {} li elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.sendKeys' and 'BasePage.sendKeys'"}
+{"logLevel":"debug","message":"Found {} kayıtlı kullanıcı bilgilerini {} gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.randomSize' and 'BasePage.randomSize'"}
+{"logLevel":"debug","message":"Found Random {} olarak beden seçimi yap in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tXpath {} li elementi bul ve tıkla : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\tRandom {} olarak beden seçimi yap : public void randomSize(String xpath)"}
+{"logLevel":"debug","message":"\tRandom {} olarak ürün seçimi yap : public void randomProduct(String xpath)"}
+{"logLevel":"debug","message":"\t{} elementin sayfada gorunur oldugunu kontrol et ve tıkla : public void findByelementEndclick(String id)"}
+{"logLevel":"debug","message":"\tId {} li elementi bul ve tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSecond(ınt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} kayıtlı kullanıcı bilgilerini {} gir : public void sendKeys(String id, String text)"}
+{"logLevel":"debug","message":"\tSayfayı asağı doğru kaydır : public void swipeUp()"}
+Nis 04, 2022 12:29:56 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Id {} li elementi bul ve tıkla' using 'class BasePage.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Xpath {} li elementi bul ve tıkla' using 'class BasePage.clickByxpath"}
+{"logLevel":"info","message":"Kontrol edildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Id {} li elementi bul ve tıkla' using 'class BasePage.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Id {} li elementi bul ve tıkla' using 'class BasePage.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Xpath {} li elementi bul ve tıkla' using 'class BasePage.clickByxpath"}
+{"logLevel":"info","message":"Kontrol edildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Xpath {} li elementi bul ve tıkla' using 'class BasePage.clickByxpath"}
+{"logLevel":"info","message":"Kontrol edildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Sayfayı asağı doğru kaydır' using 'class BasePage.swipeUp"}
+{"logLevel":"debug","message":"Executing 'Sayfayı asağı doğru kaydır' using 'class BasePage.swipeUp"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Random {} olarak ürün seçimi yap' using 'class BasePage.randomProduct"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Xpath {} li elementi bul ve tıkla' using 'class BasePage.clickByxpath"}
+{"logLevel":"info","message":"Kontrol edildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Id {} li elementi bul ve tıkla' using 'class BasePage.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} elementin sayfada gorunur oldugunu kontrol et ve tıkla' using 'class BasePage.findByelementEndclick"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} kayıtlı kullanıcı bilgilerini {} gir' using 'class BasePage.sendKeys"}
+Giris yapma sayfasi acildi
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} kayıtlı kullanıcı bilgilerini {} gir' using 'class BasePage.sendKeys"}
+Giris yapma sayfasi acildi
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Id {} li elementi bul ve tıkla' using 'class BasePage.clickByid"}
+{"logLevel":"debug","message":"Executing 'Id {} li elementi bul ve tıkla' using 'class BasePage.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Random {} olarak ürün seçimi yap' using 'class BasePage.randomProduct"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Random {} olarak beden seçimi yap' using 'class BasePage.randomSize"}
+{"logLevel":"debug","message":"Executing 'Id {} li elementi bul ve tıkla' using 'class BasePage.clickByid"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

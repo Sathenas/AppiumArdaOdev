@@ -1,0 +1,27 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+# Kategoriler sayfası açılır.
+* "3" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/nav_categories" li elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Menüden Kadın seçeneğine tıklanır.
+* "3" saniye kadar bekle
+* Xpath "//*[@text='Kadın']" li elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Pantolon kategorisi açılır.
+* "3" saniye kadar bekle
+* Xpath "//*[@text='Pantolon']" li elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Sayfa 2 kere scroll edilir.
+* Sayfayı asağı doğru kaydır
+* Sayfayı asağı doğru kaydır
+* "3" saniye kadar bekle
+
+
+
+
+
+
+
+
